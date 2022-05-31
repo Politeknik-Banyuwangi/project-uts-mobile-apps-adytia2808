@@ -18,8 +18,8 @@ class Calls extends StatelessWidget {
             SizedBox(
               height: 10,
             ),
-            callPhone("Wahyu Ramana", Icons.call_received, Colors.green, "Mei 20, 12:08", NetworkImage("https://i.ibb.co/MSqdrmV/pp.jpg")),
-            callPhone("Sokles Ayam", Icons.call_received, Colors.green, "Mei 20, 20:45", NetworkImage("https://i.ibb.co/MSqdrmV/pp.jpg")),
+            callPhone("Ayang", Icons.call_received, Colors.green, "Mei 20, 12:08", NetworkImage("https://i.ibb.co/MSqdrmV/pp.jpg")),
+            callPhone("Sokles Ayam", Icons.call_received, Colors.green, "Mei 20, 20:45", NetworkImage("https://i.ibb.co/QfpJXCq/pp2.jpg")),
             callPhone("Wahyu", Icons.call_received, Colors.green, "Mei 25, 06:30", NetworkImage("https://i.ibb.co/MSqdrmV/pp.jpg")),
             callPhone("Ali", Icons.call_made, Colors.green, "Mei 25, 08:25", NetworkImage("https://i.ibb.co/MSqdrmV/pp.jpg")),
             callPhone("Ayu Ginanjar", Icons.call_missed, Colors.red, "Mei 25, 12:03", NetworkImage("https://i.ibb.co/MSqdrmV/pp.jpg")),
