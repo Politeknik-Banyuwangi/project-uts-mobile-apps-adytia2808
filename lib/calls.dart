@@ -82,7 +82,7 @@ class Calls extends StatelessWidget {
             SizedBox(width: 6),
             Text(
               Time,
-              style: TextStyle(fontSize: 33),
+              style: TextStyle(fontSize: 13),
             ),
           ],
         ),
