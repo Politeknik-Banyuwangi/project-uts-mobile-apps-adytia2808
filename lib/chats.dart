@@ -49,7 +49,7 @@ class Chats extends StatelessWidget {
         ),
         title: Text(
           name,
-          style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+          style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
         ),
         subtitle: Row(children: [
           Icon(
