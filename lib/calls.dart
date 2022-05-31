@@ -66,7 +66,7 @@ class Calls extends StatelessWidget {
       child: ListTile(
         leading: CircleAvatar(
           backgroundImage: networkImage,
-          radius: 50,
+          radius: 30,
         ),
         title: Text(
           name,
