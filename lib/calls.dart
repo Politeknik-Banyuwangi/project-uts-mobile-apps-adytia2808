@@ -88,7 +88,7 @@ class Calls extends StatelessWidget {
         ),
         trailing: Icon(
           Icons.call,
-          size: 28,
+          size: 40,
           color: Colors.teal,
         ),
       ),
