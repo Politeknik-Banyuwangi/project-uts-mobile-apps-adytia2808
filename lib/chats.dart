@@ -30,4 +30,35 @@ class Chats extends StatelessWidget {
       ),
     );
   }
+
+  Widget chatCard(String name, String desk, String time, IconData iconD, Color iconC, NetworkImage ntimg) {
+    return Card(
+      margin: EdgeInsets.only(bottom: 0.9),
+      child: ListTile(
+        leading: CircleAvatar(
+          backgroundImage: ntimg,
+          radius: 30,
+        ),
+        title: Text(
+          name,
+          style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+        ),
+        subtitle: Row(children: [
+          Icon(
+            iconD,
+            size: 16,
+            color: iconC,
+          ),
+          SizedBox(width: 5),
+          Text(
+            desk,
+            style: TextStyle(
+              fontSize: 13,
+            ),
+          ),
+        ]),
+        trailing: Text(time),
+      ),
+    );
+  }
 }
