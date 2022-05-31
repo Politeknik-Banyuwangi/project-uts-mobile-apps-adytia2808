@@ -21,8 +21,8 @@ class Calls extends StatelessWidget {
             callPhone("Ayang", Icons.call_received, Colors.green, "Mei 20, 12:08", NetworkImage("https://i.ibb.co/BwqbJxg/ayang.jpg")),
             callPhone("Sokles Ayam", Icons.call_received, Colors.green, "Mei 20, 20:45", NetworkImage("https://i.ibb.co/QfpJXCq/pp2.jpg")),
             callPhone("Wahyu", Icons.call_received, Colors.green, "Mei 25, 06:30", NetworkImage("https://i.ibb.co/MSqdrmV/pp.jpg")),
-            callPhone("Ali", Icons.call_made, Colors.green, "Mei 25, 08:25", NetworkImage("https://i.ibb.co/MSqdrmV/pp.jpg")),
-            callPhone("Ayu Ginanjar", Icons.call_missed, Colors.red, "Mei 25, 12:03", NetworkImage("https://i.ibb.co/MSqdrmV/pp.jpg")),
+            callPhone("Ali", Icons.call_made, Colors.green, "Mei 25, 08:25", NetworkImage("https://cdn.idntimes.com/content-images/post/20180920/4faca301c0d25bbfa08bb1256a1c71e2.jpg")),
+            callPhone("Ayu Ginanjar", Icons.call_missed, Colors.red, "Mei 25, 12:03", NetworkImage("https://lh3.googleusercontent.com/proxy/SvpJipvePYyeCRAm7GzOhJjShKePN_r4yag05BsUWH5A4_PJyqZizSz-8oarheZiORHVfGpsiRluOv8YuF3kGNeGWLi31hv0DqXeV6JKLk0CFXIvufsHmu70sA=w1200-h630-p-k-no-nu")),
             callPhone("Siti Stikus", Icons.call_received, Colors.green, "Mei 25, 13:55", NetworkImage("https://i.ibb.co/MSqdrmV/pp.jpg")),
             callPhone("Putri Rahayu", Icons.call_missed, Colors.red, "Mei 25, 21:15", NetworkImage("https://i.ibb.co/MSqdrmV/pp.jpg")),
             callPhone("Rahmat", Icons.call_missed, Colors.red, "Mei 28, 07:20", NetworkImage("https://i.ibb.co/njWWvq0/pp3.jpg")),
@@ -60,7 +60,7 @@ class Calls extends StatelessWidget {
     );
   }
 
-  Widget callPhone(String name, IconData iconData, Color iconColor, String Time, NetworkImage networkImage) {
+  Widget callPhone(String name, IconData iconSitus, Color iconColor, String Time, NetworkImage networkImage) {
     return Card(
       margin: EdgeInsets.only(bottom: 0.9),
       child: ListTile(
@@ -75,7 +75,7 @@ class Calls extends StatelessWidget {
         subtitle: Row(
           children: [
             Icon(
-              iconData,
+              iconSitus,
               color: iconColor,
               size: 20,
             ),
