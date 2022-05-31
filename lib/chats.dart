@@ -17,6 +17,7 @@ class Chats extends StatelessWidget {
             SizedBox(
               height: 10,
             ),
+            chatPhone("Ayang", Icons.call_received, Colors.green, "Mei 20, 12:08", NetworkImage("https://i.ibb.co/BwqbJxg/ayang.jpg")),
           ],
         ),
       ),
@@ -31,7 +32,7 @@ class Chats extends StatelessWidget {
     );
   }
 
-  Widget chatCard(String name, String desk, String time, IconData iconD, Color iconC, NetworkImage ntimg) {
+  Widget chatPhone(String name, String desk, String time, IconData iconD, Color iconC, NetworkImage ntimg) {
     return Card(
       margin: EdgeInsets.only(bottom: 0.9),
       child: ListTile(
