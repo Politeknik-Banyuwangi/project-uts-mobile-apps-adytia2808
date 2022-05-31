@@ -77,9 +77,9 @@ class Calls extends StatelessWidget {
             Icon(
               iconData,
               color: iconColor,
-              size: 30,
+              size: 20,
             ),
-            SizedBox(width: 6),
+            SizedBox(width: 9),
             Text(
               Time,
               style: TextStyle(fontSize: 13),
