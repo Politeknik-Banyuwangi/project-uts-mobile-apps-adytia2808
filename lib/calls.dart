@@ -70,7 +70,7 @@ class Calls extends StatelessWidget {
         ),
         title: Text(
           name,
-          style: TextStyle(fontWeight: FontWeight.w500),
+          style: TextStyle(fontWeight: FontWeight.w600),
         ),
         subtitle: Row(
           children: [
