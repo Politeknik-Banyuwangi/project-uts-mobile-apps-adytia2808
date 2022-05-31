@@ -25,7 +25,7 @@ class Chats extends StatelessWidget {
             chatPhone("Siti Stikus", "P", "15:25", Icons.done, Colors.grey, NetworkImage("https://1.bp.blogspot.com/-PgQ2tI2fbnU/X9tIboO0k2I/AAAAAAAAQWI/RqE3Lj-k31g4lvwkFwuccPZZ2Q_LzBp0wCPcBGAsYHg/s736/9e875e099e7a0ce717fa9956c464deb0.jpg")),
             chatPhone("Putri Rahayu", "Suker", "09:38", Icons.done_all, Colors.blue, NetworkImage("https://i.pinimg.com/736x/43/c1/66/43c166f2ef2613ad393eccdff5cac10a.jpg")),
             chatPhone("Rahmat", "Mabar dect", "20:00", Icons.done_all, Colors.blue, NetworkImage("https://i.ibb.co/njWWvq0/pp3.jpg")),
-            chatPhone("Lala", "Lali aku", "20:00", Icons.done_all, Colors.blue, NetworkImage("https://i.ibb.co/njWWvq0/pp3.jpg")),
+            chatPhone("Lala", "Lali aku", "20:00", Icons.done_all, Colors.blue, NetworkImage("https://cdn.idntimes.com/content-images/post/20210519/4-e4848cb71c4e0ea23b21529796096691.png")),
             chatPhone("Suci", "Ayoo", "20:00", Icons.done_all, Colors.blue, NetworkImage("https://i.ibb.co/njWWvq0/pp3.jpg")),
             chatPhone("Marita", "Mumet", "17:38", Icons.done_all, Colors.grey, NetworkImage("https://i0.wp.com/www.ekor9.com/wp-content/uploads/2018/06/animasi-cewek-bawa-kucing.jpg")),
             chatPhone("Adel", "Amu neng ndi lee!", "13:24", Icons.done, Colors.grey, NetworkImage("https://i.pinimg.com/736x/0c/b5/94/0cb59415ab66a2833f96ca31d58d82ee.jpg")),
