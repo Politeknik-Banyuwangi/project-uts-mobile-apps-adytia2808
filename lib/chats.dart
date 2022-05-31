@@ -17,7 +17,7 @@ class Chats extends StatelessWidget {
             SizedBox(
               height: 10,
             ),
-            chatPhone("Ayang", "hallo", "12:08", Icons.dont, Colors.green, NetworkImage("https://i.ibb.co/BwqbJxg/ayang.jpg")),
+            chatPhone("Ayang", "hallo", "12:08", Icons.done, Colors.green, NetworkImage("https://i.ibb.co/BwqbJxg/ayang.jpg")),
           ],
         ),
       ),
