@@ -39,12 +39,12 @@ class Chats extends StatelessWidget {
     );
   }
 
-  Widget chatPhone(String name, String desk, String time, IconData iconD, Color iconC, NetworkImage ntimg) {
+  Widget chatPhone(String name, String des, String time, IconData iconSitus, Color iconColor, NetworkImage img) {
     return Card(
       margin: EdgeInsets.only(bottom: 0.9),
       child: ListTile(
         leading: CircleAvatar(
-          backgroundImage: ntimg,
+          backgroundImage: img,
           radius: 30,
         ),
         title: Text(
@@ -53,13 +53,13 @@ class Chats extends StatelessWidget {
         ),
         subtitle: Row(children: [
           Icon(
-            iconD,
+            iconSitus,
             size: 16,
-            color: iconC,
+            color: iconColor,
           ),
           SizedBox(width: 5),
           Text(
-            desk,
+            des,
             style: TextStyle(
               fontSize: 13,
             ),

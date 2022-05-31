@@ -60,12 +60,12 @@ class Calls extends StatelessWidget {
     );
   }
 
-  Widget callPhone(String name, IconData iconSitus, Color iconColor, String Time, NetworkImage networkImage) {
+  Widget callPhone(String name, IconData iconSitus, Color iconColor, String Time, NetworkImage image) {
     return Card(
       margin: EdgeInsets.only(bottom: 0.9),
       child: ListTile(
         leading: CircleAvatar(
-          backgroundImage: networkImage,
+          backgroundImage: image,
           radius: 40,
         ),
         title: Text(
